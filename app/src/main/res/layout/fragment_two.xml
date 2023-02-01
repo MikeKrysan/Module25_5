@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    tools:context=".TwoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:transitionName="transition_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center|left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_android"
+        android:text="android"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:layout_marginRight="32dp"
+        android:layout_gravity="center|right"/>
+
+</FrameLayout>
